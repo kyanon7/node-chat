@@ -73,7 +73,7 @@ io.sockets.on('connection', function(socket) {
 //   console.log('서버 실행 중..')
 // })
 
-app.listen(process.env.PORT || 8080, function(){
+server.listen(process.env.PORT || 8080, function(){
 
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 
